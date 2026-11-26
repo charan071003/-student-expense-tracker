@@ -1,0 +1,78 @@
+Loaded 0 saved expense(s).
+
+===== STUDENT EXPENSE TRACKER =====
+1. Add expense
+2. View expenses
+3. Show summary
+4. Set / update monthly budget
+5. Exit
+Enter choice (1-5): 4
+
+--- Set Monthly Budget ---
+Current budget: not set
+New monthly budget (₹): 5000
+Budget updated.
+
+===== STUDENT EXPENSE TRACKER =====
+1. Add expense
+2. View expenses
+3. Show summary
+4. Set / update monthly budget
+5. Exit
+Enter choice (1-5): 1
+
+--- Add Expense ---
+Date (YYYY-MM-DD, Enter for today): 2026-10-09
+Amount (₹): 120
+Categories: 1=Food, 2=Transport, 3=Stationery, 4=Subscriptions, 5=Personal, 6=Other
+Category (number or name): 1
+Short description: Lunch
+Expense added successfully.
+
+===== STUDENT EXPENSE TRACKER =====
+1. Add expense
+2. View expenses
+3. Show summary
+4. Set / update monthly budget
+5. Exit
+Enter choice (1-5): 1
+
+--- Add Expense ---
+Date (YYYY-MM-DD, Enter for today): 2026-10-10
+Amount (₹): -50
+  Invalid input: Amount must be greater than zero.
+Amount (₹): abc
+  Invalid input: could not convert string to float: 'abc'
+Amount (₹): 80
+Categories: 1=Food, 2=Transport, 3=Stationery, 4=Subscriptions, 5=Personal, 6=Other
+Category (number or name): 2
+Short description: Metro to campus
+Expense added successfully.
+
+===== STUDENT EXPENSE TRACKER =====
+1. Add expense
+2. View expenses
+3. Show summary
+4. Set / update monthly budget
+5. Exit
+Enter choice (1-5): 3
+
+--- Summary ---
+Month to summarise (YYYY-MM, Enter for 2026-11): 2026-10
+
+Month: 2026-10
+Total recorded spending: ₹200.00
+  Food spending: ₹120.00
+  Transport spending: ₹80.00
+Monthly budget: ₹5,000.00
+Budget remaining: ₹4,800.00
+You are within your budget.
+
+===== STUDENT EXPENSE TRACKER =====
+1. Add expense
+2. View expenses
+3. Show summary
+4. Set / update monthly budget
+5. Exit
+Enter choice (1-5): 5
+Data saved. Goodbye!

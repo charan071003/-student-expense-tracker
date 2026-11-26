@@ -1,0 +1,37 @@
+Loaded 0 saved expense(s).
+
+===== STUDENT EXPENSE TRACKER =====
+1. Add expense
+2. View expenses
+3. Show summary
+4. Set / update monthly budget
+5. Exit
+Enter choice (1-5): 3
+
+--- Summary ---
+Month to summarise (YYYY-MM, Enter for 2026-11): 
+
+Month: 2026-11
+Total recorded spending: ₹0.00
+  (no expenses recorded for this month)
+No monthly budget set.
+
+===== STUDENT EXPENSE TRACKER =====
+1. Add expense
+2. View expenses
+3. Show summary
+4. Set / update monthly budget
+5. Exit
+Enter choice (1-5): 2
+
+--- All Expenses ---
+No expenses recorded yet.
+
+===== STUDENT EXPENSE TRACKER =====
+1. Add expense
+2. View expenses
+3. Show summary
+4. Set / update monthly budget
+5. Exit
+Enter choice (1-5): 5
+Data saved. Goodbye!

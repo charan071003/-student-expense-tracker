@@ -1,0 +1,19 @@
+digraph G {
+  rankdir=TB; dpi=150; node [fontname="Helvetica", fontsize=11, style=filled, fillcolor="#EAF2FB", color="#1F4E79"]; edge [color="#1F4E79", fontname="Helvetica", fontsize=10];
+  start [label="START", shape=oval, fillcolor="#C6E0B4"];
+  load [label="Load saved expenses\nand budget from file", shape=box];
+  menu [label="Display menu", shape=box];
+  read [label="Read user choice", shape=parallelogram];
+  d [label="Choice?", shape=diamond, fillcolor="#FFF2CC"];
+  add [label="Add: input date, amount,\ncategory, description\n(validate, store, save)", shape=box];
+  view [label="View: print all\nexpenses", shape=box];
+  sum [label="Summary: total, category totals,\ncompare with budget, warn", shape=box];
+  bud [label="Set budget:\nvalidate and save", shape=box];
+  inv [label="Invalid choice:\nshow message", shape=box];
+  ex [label="Exit: save data", shape=box];
+  end [label="END", shape=oval, fillcolor="#F4B183"];
+  start -> load -> menu -> read -> d;
+  d -> add [label="1"]; d -> view [label="2"]; d -> sum [label="3"]; d -> bud [label="4"]; d -> inv [label="other"]; d -> ex [label="5"];
+  add -> menu; view -> menu; sum -> menu; bud -> menu; inv -> menu;
+  ex -> end;
+}
